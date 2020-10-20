@@ -1,0 +1,27 @@
+
+<div class="page-width">
+
+  <header class="grid medium-up--grid--table section-header small--text-center">
+    <div class="grid__item medium-up--one-half section-header__item">
+      <h1 class="section-header__title">
+        {{ collection.title }}
+        
+      </h1>
+      {% if collection.description != blank %}
+        <div class="section-header__subtext rte">
+          {{ collection.description }}
+        </div>
+      {% endif %}
+    </div>
+    
+  </header>
+
+  <div class="grid grid--no-gutters grid--uniform">
+
+    {% include 'commerceinstruments-navigation' %}
+  </div>
+
+  
+
+</div>
+

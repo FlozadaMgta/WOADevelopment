@@ -1,0 +1,15 @@
+Clave de API
+4a43f928f6ae9b8ee5626b1ba20af336
+Contraseña
+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
+Secreto compartido
+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
+
+Store
+https://winery-of-america.myshopify.com/
+
+theme get --list -p=[your-password] -s=[you-store.myshopify.com]
+theme get -p=[your-password] -s=[you-store.myshopify.com] -t=[your-theme-id]
+
+theme get --list -p=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 -s=winery-of-america.myshopify.com
+theme get -p=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 -s=winery-of-america.myshopify.com -t=114428412072
