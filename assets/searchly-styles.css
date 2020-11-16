@@ -5621,25 +5621,6 @@ div.aikon div.aikon-main-panel-controls ul li a {
 
 
 
-div.aikon div.aikon-main-panel {
-	background-color: #ffffff;
-}
-
-#aikon_results.aikon-mobile-design div.aikon-main-panel-dropdown>a {
-	background-color: #ffffff;
-}
-
-#aikon_results.aikon-mobile-design div.aikon-main-panel-mobile-filters>a {
-	background-color: #ffffff;
-}
-
-#aikon_results.aikon-mobile-design div.aikon-main-panel-view-mode>a {
-	background-color: #ffffff;
-}
-
-#aikon_results.aikon-mobile-design div.aikon-main-panel-controls>ul {
-	background-color: #ffffff;
-}
 
 div.aikon .aikon-button {
 	background-color: #000000;
@@ -5654,19 +5635,15 @@ div.aikon .aikon-button {
 
 
 div.aikon div.aikon-product-filters-title {
-	color: #272727 !important;
 }
 
 div.aikon div.aikon-filters-dropdown-title {
-	color: #272727 !important;
 }
 
 #aikon-modal-mobile-filters-dialog div.aikon-product-filter-opener span.aikon-product-filter-title {
-	color: #272727 !important;
 }
 
 #aikon-modal-mobile-filters-dialog div.aikon-product-filters-header span.aikon-product-filters-title {
-	color: #272727 !important;
 }
 
 div.aikon input.aikon-price-range-input {
@@ -5690,13 +5667,6 @@ span.aikon-attribute {
 
 
 
-div.aikon div.aikon-product-filters {
-	background-color: #ffffff;
-}
-
-div.aikon div.aikon-filters-dropdown-content {
-	background-color: #ffffff;
-}
 
 #aikon-modal-mobile-filters-dialog div.aikon-product-filters-buttons-container button.aikon-product-filters-show-products {
 	background-color: #000000;

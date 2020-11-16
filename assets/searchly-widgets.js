@@ -226,8 +226,8 @@
         analytics_url: "http://nyqs7x5nhd.execute-api.us-west-1.amazonaws.com/prod",
         load_meter_image_src: "https://stats.commerceinstruments.com/widgets/images/load_speed.gif",
         stats_update_search_url: "http://rxeks2tuz2.execute-api.us-west-1.amazonaws.com/prod",
-        tag_label_new_image_url: "http://search-master.s3-us-west-1.amazonaws.com/assets/tag_label_new.png",
-        tag_label_sale_image_url: "http://search-master.s3-us-west-1.amazonaws.com/assets/tag_label_sale.png",
+        tag_label_new_image_url: "http://search-master-v2.s3-us-west-1.amazonaws.com/assets/tag_label_new.png",
+        tag_label_sale_image_url: "http://search-master-v2.s3-us-west-1.amazonaws.com/assets/tag_label_sale.png",
         stats_url: "https://stats.commerceinstruments.com/stats.gif"
       },
       https: {
@@ -237,8 +237,8 @@
         analytics_url: "https://nyqs7x5nhd.execute-api.us-west-1.amazonaws.com/prod",
         load_meter_image_src: "https://www.commerceinstruments.com/widgets/images/load_speed.gif",
         stats_update_search_url: "https://rxeks2tuz2.execute-api.us-west-1.amazonaws.com/prod",
-        tag_label_new_image_url: "https://search-master.s3-us-west-1.amazonaws.com/assets/tag_label_new.png",
-        tag_label_sale_image_url: "https://search-master.s3-us-west-1.amazonaws.com/assets/tag_label_sale.png",
+        tag_label_new_image_url: "https://search-master-v2.s3-us-west-1.amazonaws.com/assets/tag_label_new.png",
+        tag_label_sale_image_url: "https://search-master-v2.s3-us-west-1.amazonaws.com/assets/tag_label_sale.png",
         stats_url: "https://stats.commerceinstruments.com/stats.gif"
       },
       options: {},

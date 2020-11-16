@@ -22,10 +22,10 @@
     "type_nav_transform": true,
     "product_images_padding": true,
     "product_vendor_enable": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/Winery-of-America-102751958195111\/",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Winery-Of-Europe-101867888410416\/",
     "social_twitter_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/instagram.com\/wineryofamerica",
+    "social_instagram_link": "https:\/\/instagram.com\/wineryofeurope",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -33,7 +33,7 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/FAVICON_WINERY_OF_AMERICA_1.png",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/LOGO_FINAL_WINERY_OF_AMERICA_PNG_GOLD.png",
     "checkout_logo_position": "center",
@@ -56,34 +56,22 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "placeholder-0": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Banner_Winery_Of_America_DESKTOP.jpg",
-              "image_position": "center center",
-              "title": "Explore & Discover",
-              "button_label": "The Best Wines of America",
-              "button_link": "shopify:\/\/collections\/all"
-            }
-          },
           "placeholder-1": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/SLIDER_WEB_WINERY_1SLIDER_WEB_VINOTINTO.jpg",
+              "image": "shopify:\/\/shop_images\/whisperin-angel5.jpg",
               "image_position": "center center",
-              "title": "American Red Wines",
-              "button_label": "Meet the best",
-              "button_link": "shopify:\/\/collections\/red-wine"
+              "title": "explore and discover",
+              "button_label": "Meet the best"
             }
           }
         },
         "block_order": [
-          "placeholder-0",
           "placeholder-1"
         ],
         "settings": {
-          "hero_home_height": "large",
-          "hero_home_auto": false,
+          "hero_home_height": "small",
+          "hero_home_auto": true,
           "hero_home_auto_speed": 5
         }
       },
@@ -125,29 +113,43 @@
           "featured-collections-0": {
             "type": "collection",
             "settings": {
-              "collection": "red-wine"
+              "collection": "argentinian-wines"
             }
           },
           "featured-collections-1": {
             "type": "collection",
             "settings": {
-              "collection": "white-wine"
+              "collection": "chile"
             }
           },
           "featured-collections-2": {
             "type": "collection",
             "settings": {
-              "collection": "rose-wine"
+              "collection": "uruguay"
+            }
+          },
+          "447d359c-cbb3-4478-8eb4-dd5c13086b7f": {
+            "type": "collection",
+            "settings": {
+              "collection": "brazil"
+            }
+          },
+          "39926fe3-d860-4a6c-95cc-0cdc0fb03029": {
+            "type": "collection",
+            "settings": {
+              "collection": "canada"
             }
           }
         },
         "block_order": [
           "featured-collections-0",
           "featured-collections-1",
-          "featured-collections-2"
+          "featured-collections-2",
+          "447d359c-cbb3-4478-8eb4-dd5c13086b7f",
+          "39926fe3-d860-4a6c-95cc-0cdc0fb03029"
         ],
         "settings": {
-          "stretch_collection_image": false
+          "stretch_collection_image": true
         }
       },
       "featured-products": {
@@ -160,7 +162,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/LOGO_FINAL_WINERY_OF_AMERICA_PNG_GOLD.png",
+          "logo": "shopify:\/\/shop_images\/LOGO_FINAL_WINERY_OF_EUROPE_Mesa_de_trabajo_1_copia_5.png",
           "logo_max_width": "130",
           "main_linklist": "main-menu",
           "promo_bar_enable": false,
@@ -216,7 +218,7 @@
           "1601487780293-0": {
             "type": "image_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_WEB_SUBSCRIBE2.jpg",
+              "image": "shopify:\/\/shop_images\/IMG_WEB_SUBSCRIBE_EUROPE2_1.jpg",
               "image_align": "top center"
             }
           }
@@ -234,18 +236,18 @@
           "1601487868645-2": {
             "type": "text_block",
             "settings": {
-              "title": "The Best Products Of America.",
-              "text": "<p>We offer you the best products from the American continent so that you can discover new aromas, flavors and experiences.<\/p>",
-              "image": "shopify:\/\/shop_images\/BEST-PRODUCTS-2.png",
+              "title": "The Best Products Of Europe & America",
+              "text": "<p>We offer you the best products from the Europea &amp; America so that you can discover new aromas, flavors and experiences.<\/p>",
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-10-29_at_13.31.50_1.jpg",
               "image_align": "center center"
             }
           },
           "1601487868645-0": {
             "type": "text_block",
             "settings": {
-              "title": "Shipping To The Door Of Your House.",
+              "title": "Shipping To The Door Of Your House",
               "text": "<p>All the products you buy will arrive at the door of your house and you will be able to collect your shipment at real time.<\/p>",
-              "image": "shopify:\/\/shop_images\/SHIPPING-DELIVERY-2.png",
+              "image": "shopify:\/\/shop_images\/pexels-anna-shvets-4226269.jpg",
               "image_align": "center center"
             }
           },
@@ -254,7 +256,7 @@
             "settings": {
               "title": "Payment Security",
               "text": "<p>Our platform guarantees the security of your payments at all times so that your shopping experience is the best.<\/p>",
-              "image": "shopify:\/\/shop_images\/PAYMENT-SECURITY-2.png",
+              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-10-29_at_14.40.02_1.jpg",
               "image_align": "center center"
             }
           }
@@ -291,14 +293,115 @@
           "links_type": false,
           "quick_link_label": "Quick links:"
         }
+      },
+      "1604073769bf56f669": {
+        "type": "featured-products",
+        "settings": {
+          "collection": "rose-wine",
+          "rows": 2
+        }
+      },
+      "1604073945bcd90283": {
+        "type": "featured-products",
+        "settings": {
+          "collection": "sparkling-wine",
+          "rows": 2
+        }
+      },
+      "160501991015c69a85": {
+        "type": "featured-collections",
+        "blocks": {
+          "160501991015c69a85-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "red-wine"
+            }
+          },
+          "160501991015c69a85-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "white-wine"
+            }
+          },
+          "160501991015c69a85-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "sparkling-wine"
+            }
+          },
+          "0a55078d-43a2-470a-be1c-b129da469826": {
+            "type": "collection",
+            "settings": {
+              "collection": "rose-wine"
+            }
+          },
+          "a0eaa339-3c1d-4daf-9170-6425b3ac705b": {
+            "type": "collection",
+            "settings": {
+              "collection": "sparkling-red"
+            }
+          }
+        },
+        "block_order": [
+          "160501991015c69a85-0",
+          "160501991015c69a85-1",
+          "160501991015c69a85-2",
+          "0a55078d-43a2-470a-be1c-b129da469826",
+          "a0eaa339-3c1d-4daf-9170-6425b3ac705b"
+        ],
+        "settings": {
+          "stretch_collection_image": true
+        }
+      },
+      "Gallery-Test": {
+        "type": "Gallery-Test",
+        "settings": {
+          "gallery_height": "short"
+        }
+      },
+      "SliderShow-Test": {
+        "type": "SliderShow-Test",
+        "blocks": {
+          "95f680a4-7c70-4dd4-9d00-b4adaaf393b2": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/pexels-andrea-piacquadio-3960547.jpg",
+              "image_position": "center center",
+              "title": "Slide",
+              "button_label": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "95f680a4-7c70-4dd4-9d00-b4adaaf393b2"
+        ],
+        "settings": {
+          "hero_home_height": "small",
+          "hero_home_auto": false,
+          "hero_home_auto_speed": 5
+        }
+      },
+      "Maps-Test": {
+        "type": "Maps-Test",
+        "settings": {
+          "map_title": "Our store",
+          "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
+          "map_address": "80 Spadina Ave, Toronto",
+          "button": "Directions",
+          "show_pin": true,
+          "api_key": "",
+          "position": "center center"
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "1602514128dac47d6a",
-      "featured-collections",
+      "160501991015c69a85",
       "1601486961396",
       "featured-products",
+      "1604073769bf56f669",
+      "1604073945bcd90283",
       "1601487868645",
       "160190781095eeb912",
       "1601487780293",

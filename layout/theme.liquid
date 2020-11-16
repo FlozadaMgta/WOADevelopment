@@ -65,12 +65,13 @@
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
-  
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   {{ content_for_header }}
-</head>
+ 
+{% include 'pagefly-header' %}
+ </head> 
 
 <body class="template-{{ request.page_type | handle }}" >
 
