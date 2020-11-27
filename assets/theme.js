@@ -1528,6 +1528,7 @@ window.QtySelector = (function() {
       $cartTable: $('.cart-table'),
       $cartTemplate: $('#CartProducts'),
       $cartFooter: $('#CartFooter'),
+      $cartIconIndicator: $('.site-header__cart-indicator'),
       $cartFooterTemplate: $('#CartFooterTemplate')
     };
 
@@ -1709,6 +1710,9 @@ window.QtySelector = (function() {
       location.reload();
       return;
     }
+
+    //Update cart count
+    this.cache.$cartIconIndicator.text(cart.item_count)
 
     // Update cart object
     theme.cartObject = cart;
@@ -1894,8 +1898,11 @@ window.AjaxCart = (function() {
     $.ajax(params);
   };
 
-  cart.prototype.success = function() {
+  cart.prototype.success = function(cart) {
     theme.Notify.open('success', false, true);
+
+    //Update cart count
+    this.cache.$cartIconIndicator.text(cart.quantity);
 
     // Update cart notification bubble's state
     this.cache.$cartIconIndicator.removeClass('hide');
