@@ -82,10 +82,12 @@
         {%- endif -%}
         <div class="hero-content__controls">
           {%- if section.blocks.size > 1 -%}
-            <div class="hero-content__controls-item hero-content__controls-item--count" aria-label="{{ 'homepage.hero.slide_number' | t: slide_number: '[slide_number]' }}">
-              <span class="slide-counter" aria-hidden="true">1/{{ section.blocks.size }}</span>
-            </div>
-            {%- if section.settings.hero_home_auto -%}
+            {%- if section.settings.show_qty_slider -%}
+              <div class="hero-content__controls-item hero-content__controls-item--count" aria-label="{{ 'homepage.hero.slide_number' | t: slide_number: '[slide_number]' }}">
+                <span class="slide-counter" aria-hidden="true">1/{{ section.blocks.size }}</span>
+              </div>
+            {%- endif -%}
+            {%- if section.settings.hero_home_auto and section.settings.show_pause_button -%}
               <div class="hero-content__controls-item hero-content__controls-item--pause">
                 <button type="button" class="hero__pause"
                                       aria-live="polite"
@@ -396,6 +398,18 @@
         "zh-TW": " s"
       },
       "default": 5
+    },
+    {
+      "type": "checkbox",
+      "id": "show_pause_button",
+      "label": "Show Pause Button",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_qty_slider",
+      "label": "Show Slider Quantity",
+      "default": true
     }
   ],
   "presets": [
